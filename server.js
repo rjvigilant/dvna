@@ -20,12 +20,14 @@ app.use(fileUpload());
 // app.set('trust proxy', 1) 
 
 // Intialize Session
+/*
 app.use(session({
   secret: 'keyboard cat',
   resave: true,
   saveUninitialized: true,
   cookie: { secure: false }
 }))
+*/
 
 // Initialize Passport
 app.use(passport.initialize())
